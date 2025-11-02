@@ -24,13 +24,17 @@
 
 body {
     background-color: var(--neutral-0);
+    font-family: "Epilogue", Arial, Helvetica, sans-serif;
+    padding: 1.5rem;
 }
+
+/* Header */
 
 header {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    margin-block-end: 4rem;
 }
 
 .header-btn {
@@ -49,4 +53,57 @@ header {
 .header-btn:hover {
     background-color: var(--neutral-900);
     color: var(--neutral-0);
+}
+
+/* Hero */
+
+.hero-text-container {
+    position: relative;
+}
+
+h1 {
+    color: var(--neutral-900);
+    font-size: 2.5em;
+    font-weight: 400;
+    line-height: 110%;
+    margin-block-end: 1.5rem;
+}
+
+.hero-curved {
+    height: auto;
+    left: 10.5rem;
+    position: absolute;
+    top: -1.625rem;
+    width: 10rem;
+}
+
+.hero-p {
+    color: var(--neutral-500);
+    line-height: 150%;
+    font-size: 1.2rem;
+    margin-block-end: 2.5rem;
+}
+
+.hero-btn {
+    padding: 1rem 1.25rem 0.75rem 1.25rem;
+    background-color: var(--neutral-900);
+    border: 0.1rem solid var(--neutral-900);
+    border-radius: 0.5rem;
+    color: var(--neutral-0);
+    cursor: pointer;
+    font-weight: 600;
+    height: 3.25rem;
+    margin-block-end: 4rem;
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+    width: 13rem;
+}
+
+.hero-btn:hover {
+    background-color: var(--neutral-0);
+    color: var(--neutral-900);
+}
+
+.hero-image-landscape {
+    height: auto;
+    width: 100%;
 }
