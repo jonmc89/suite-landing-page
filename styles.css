@@ -57,6 +57,10 @@ header {
 
 /* Hero */
 
+.hero-section {
+    margin-block-end: 4rem;
+}
+
 .hero-text-container {
     position: relative;
 }
@@ -106,4 +110,27 @@ h1 {
 .hero-image-landscape {
     height: auto;
     width: 100%;
+}
+
+/* Stats */
+
+.stats-section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    width: 100%;
+}
+
+.stats-container {
+    text-align: center;
+}
+
+h2 {
+    color: var(--neutral-900);
+    font-size: 3rem;
+}
+
+.stats-sub-text {
+    color: var(--neutral-500);
 }
