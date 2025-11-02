@@ -7,15 +7,46 @@
 }
 
 :root {
-    neutral-900: #172339;
-    neutral-500: #49566d;
-    neutral-200: #f3ede7;
-    neutral-0: #faf8f6;
-    eupatrorium-purple-500: #c830e3;
-    light-gradient: linear-gradient(
+    --neutral-900: #172339;
+    --neutral-500: #49566d;
+    --neutral-200: #f3ede7;
+    --neutral-0: #faf8f6;
+    --eupatrorium-purple-500: #c830e3;
+    --light-gradient: linear-gradient(
         135deg,
         #a060ff 0%,
         #cb30e3 49.21%,
         #ffa84e 100%
     );
+}
+
+/* || Main */
+
+body {
+    background-color: var(--neutral-0);
+}
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.header-btn {
+    padding: 1rem 1.25rem 0.75rem 1.25rem;
+    background-color: var(--neutral-0);
+    border: 0.1rem solid var(--neutral-900);
+    border-radius: 0.5rem;
+    color: var(--neutral-900);
+    cursor: pointer;
+    font-weight: 600;
+    height: 3.25rem;
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+    width: 13rem;
+}
+
+.header-btn:hover {
+    background-color: var(--neutral-900);
+    color: var(--neutral-0);
 }
