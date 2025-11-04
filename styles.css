@@ -212,3 +212,22 @@ h3 {
     font-weight: 300;
     margin-block-end: 2.5rem;
 }
+
+/* Footer */
+
+footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.copy {
+    color: var(--neutral-500);
+}
+
+.socials {
+    display: flex;
+    gap: 2rem;
+}
