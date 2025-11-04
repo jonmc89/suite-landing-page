@@ -25,7 +25,6 @@
 body {
     background-color: var(--neutral-0);
     font-family: "Epilogue", Arial, Helvetica, sans-serif;
-    padding: 1.5rem;
 }
 
 /* Header */
@@ -35,6 +34,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin-block-end: 4rem;
+    padding: 1.5rem;
 }
 
 .header-btn {
@@ -59,6 +59,7 @@ header {
 
 .hero-section {
     margin-block-end: 4rem;
+    padding: 1.5rem;
 }
 
 .hero-text-container {
@@ -119,6 +120,8 @@ h1 {
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
+    margin-block-end: 15rem;
+    padding: 1.5rem;
     width: 100%;
 }
 
@@ -133,4 +136,79 @@ h2 {
 
 .stats-sub-text {
     color: var(--neutral-500);
+}
+
+/* Testimonials */
+
+.testimonial-container {
+    background-color: var(--neutral-900);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 38rem;
+    justify-content: flex-end;
+    padding: 4rem 1.5rem 0 1.5rem;
+    position: relative;
+    color: var(--neutral-0);
+}
+
+.testimonial-text-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.testimonial-img-container {
+    position: relative;
+    left: 50%;
+    top: -16rem;
+    transform: translateX(-50%);
+}
+
+.testimonial-img {
+    position: absolute;
+    left: 50%;
+    top: -12rem;
+    transform: translateX(-50%);
+}
+
+.radial-blur {
+    background-color: var(--eupatrorium-purple-500);
+    border-radius: 50%;
+    filter: blur(5rem);
+    height: 10rem;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    top: 5rem;
+    width: 10em;
+    z-index: -1;
+}
+.testimonial-curve {
+    height: auto;
+    margin-block-end: 2rem;
+    width: 4rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-block-end: 2rem;
+}
+
+.testimonial-text {
+    line-height: 150%;
+    margin-block-end: 1.5rem;
+}
+
+.name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-block-end: 0.5rem;
+}
+
+.job-title {
+    font-weight: 300;
+    margin-block-end: 2.5rem;
 }
