@@ -55,6 +55,11 @@ header {
     color: var(--neutral-0);
 }
 
+.header-btn:focus {
+    outline: 0.2rem solid var(--neutral-900);
+    outline-offset: 0.1rem;
+}
+
 /* Hero */
 
 .hero-section {
@@ -106,6 +111,11 @@ h1 {
 .hero-btn:hover {
     background: var(--light-gradient);
     color: var(--neutral-0);
+}
+
+.hero-btn:focus {
+    outline: 0.2rem solid var(--neutral-900);
+    outline-offset: 0.1rem;
 }
 
 .hero-image-landscape {
