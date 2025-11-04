@@ -92,20 +92,20 @@ h1 {
 .hero-btn {
     padding: 1rem 1.25rem 0.75rem 1.25rem;
     background-color: var(--neutral-900);
-    border: 0.1rem solid var(--neutral-900);
+    border: none;
     border-radius: 0.5rem;
     color: var(--neutral-0);
     cursor: pointer;
     font-weight: 600;
     height: 3.25rem;
     margin-block-end: 4rem;
-    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+    transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
     width: 13rem;
 }
 
 .hero-btn:hover {
-    background-color: var(--neutral-0);
-    color: var(--neutral-900);
+    background: var(--light-gradient);
+    color: var(--neutral-0);
 }
 
 .hero-image-landscape {
